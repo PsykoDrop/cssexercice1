@@ -4,10 +4,28 @@ table
 table 
 {
     border: solid black;}
-h1 
+caption
 {
     text-align: center;font-size: 16px;}
 td
 {
     border: thin solid  black;}
+th
+{
+    border: thin solid  black;}
+.greencolor 
+{
+    background-color: mediumspringgreen;}
+.redcolor
+{
+    background-color: red;}
+thead
+{
+    background-color: silver; font-weight: bold;text-align: center;}
+tfoot
+{
+    background-color: silver;}
+.leSpecial
+{
+    text-align: center;background-color: mediumspringgreen;}
 
