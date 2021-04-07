@@ -1,3 +1,10 @@
 .textItalic {
-    font-style: italic;
-}
+    font-style: italic;}
+
+.redText {color: red;}
+
+.greenText {color: green;}
+
+h1 {text-align: center; 
+    font-size: 16px;}
+
