@@ -1,31 +1,37 @@
 table 
 {
-    border-collapse:collapse;}
-table 
-{
+    border-collapse:collapse;
+    margin-top: 300px;
     border: solid black;}
+
 caption
 {
     text-align: center;font-size: 16px;}
-td
+td, th
 {
-    border: thin solid  black;}
-th
+    border: thin solid  black;
+    padding: 10px;}
+
+td:first-child 
 {
-    border: thin solid  black;}
+    width: 150px;
+    text-align: right; }
+
 .greencolor 
 {
     background-color: mediumspringgreen;}
 .redcolor
 {
-    background-color: red;}
+    background-color: palevioletred;}
 thead
 {
     background-color: silver; font-weight: bold;text-align: center;}
-tfoot
+tfoot th
 {
-    background-color: silver;}
-.leSpecial
+    background-color: silver;
+    text-align: left;
+    font-weight: normal;}
+.numbers
 {
     text-align: center;background-color: mediumspringgreen;}
 
